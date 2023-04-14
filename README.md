@@ -14,13 +14,25 @@ flipkart clone
 ## header
 
 - header.jsx
+- Search.jsx
+- CustomButtons.jsx
+
+## Home
+
+- Home.jsx
+- NavBar.jsx
+- Banner.jsx
+
+## Constants
+
+- data.js
 
 #### Material UI
 
 # Header
 
 - AppBar
-  -Toolbar
+- Toolbar
 
 # handle CSS
 
@@ -48,4 +60,15 @@ flipkart clone
 
 * variant contained
 
-### Material icons
+#### Material icons
+
+- SearchIcon
+- Shopping Cart
+
+#### react-multi-carousel
+
+- npm i react-multi-carousel
+
+#### React
+
+- Fragments => in order to render multipe components without using div
