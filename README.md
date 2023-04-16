@@ -9,23 +9,33 @@ flipkart clone
 
 #### client
 
-### components
+### src
 
-## header
+## components
+
+# header
 
 - header.jsx
 - Search.jsx
 - CustomButtons.jsx
 
-## Home
+# Home
 
 - Home.jsx
 - NavBar.jsx
 - Banner.jsx
 
+# login
+
+- LoginDialog.jsx
+
 ## Constants
 
 - data.js
+
+## service
+
+- api.js
 
 #### Material UI
 
@@ -38,27 +48,32 @@ flipkart clone
 
 - styled
 
-# replacement of Div
+# Box
 
-- Box
+- Div
 
-# replacement of p
+# Typography
 
-- typography
+- for paragraph
 
 # want to use span
 
 - Box
 
-# Search
+# InputBase
 
-- InputBase
+- Search
 
 # Button
 
-- Button
+- variant contained
 
-* variant contained
+# Dialog
+
+# TextField
+
+- variant standard
+- label
 
 #### Material icons
 
@@ -72,3 +87,4 @@ flipkart clone
 #### React
 
 - Fragments => in order to render multipe components without using div
+- useState
