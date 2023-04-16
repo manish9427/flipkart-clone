@@ -65,7 +65,7 @@ flipkart clone
 - SearchIcon
 - Shopping Cart
 
-#### react-multi-carousel
+#### react-multi-carousel(Banner)
 
 - npm i react-multi-carousel
 
