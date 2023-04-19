@@ -1,27 +1,27 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 import {
   Dialog,
-  DialogContent,
-  TextField,
   Box,
-  Button,
+  TextField,
   Typography,
+  Button,
   styled,
 } from "@mui/material";
 
-const Component = styled(DialogContent)`
+import { authenticateSignup } from "../../service/api";
+
+const Component = styled(Box)`
   height: 70vh;
   width: 90vh;
-  padding: 0;
-  padding-top: 0;
 `;
+
 const Image = styled(Box)`
   background: #2874f0
     url(https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png)
     center 85% no-repeat;
-  width: 28%;
   height: 82%;
+  width: 28%;
   padding: 45px 35px;
   & > p,
   & > h5 {
@@ -29,6 +29,7 @@ const Image = styled(Box)`
     font-weight: 600;
   }
 `;
+
 const Wrapper = styled(Box)`
   display: flex;
   padding: 25px 35px;
@@ -40,9 +41,10 @@ const Wrapper = styled(Box)`
     margin-top: 20px;
   }
 `;
+
 const LoginButton = styled(Button)`
   text-transform: none;
-  background: #fb6418;
+  background: #fb641b;
   color: #fff;
   height: 48px;
   border-radius: 2px;
@@ -63,10 +65,11 @@ const Text = styled(Typography)`
 `;
 
 const CreateAccount = styled(Typography)`
-  font-size: 14px;
+  margin: auto 0 5px 0;
   text-align: center;
   color: #2874f0;
   font-weight: 600;
+  font-size: 14px;
   cursor: pointer;
 `;
 
@@ -100,14 +103,20 @@ const LoginDialog = ({ open, setOpen }) => {
     setOpen(false);
     toggleAccount(accountInitialValues.login);
   };
+
   const toggleSignup = () => {
     toggleAccount(accountInitialValues.signup);
   };
-  const onInputChange = (e) => {
-    setSignup({ ...signup, [e.target.value]: e.target.value });
-  };
-  const signupUser = () => {};
 
+  const onInputChange = (e) => {
+    setSignup({ ...signup, [e.target.name]: e.target.value });
+  };
+
+  const signupUser = async () => {
+    let response = await authenticateSignup(signup);
+    if (!response) return;
+    handleClose();
+  };
   return (
     <Dialog
       open={open}
@@ -129,7 +138,6 @@ const LoginDialog = ({ open, setOpen }) => {
                 name="username"
                 label="Enter Email/Mobile number"
               />
-
               <TextField
                 variant="standard"
                 name="password"

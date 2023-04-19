@@ -6,12 +6,12 @@ import { Box } from "@mui/material";
 
 function App() {
   return (
-    <div>
+    <Box>
       <Header />
       <Box style={{ marginTop: 54 }}>
         <Home />
       </Box>
-    </div>
+    </Box>
   );
 }
 

@@ -13,7 +13,7 @@ const Wrapper = styled(Box)`
   & > div {
     margin-right: 40px;
     font-size: 16px;
-    align-item: centre;
+    align-items: centre;
   }
 `;
 const Container = styled(Box)`
