@@ -83,10 +83,15 @@ flipkart clone
 - variant standard
 - label
 
+# menu
+
+- profile
+
 #### Material icons
 
 - SearchIcon
 - Shopping Cart
+- PowerSettingsNew
 
 #### react-multi-carousel(Banner)
 
@@ -96,3 +101,9 @@ flipkart clone
 
 - Fragments => in order to render multipe components without using div
 - useState
+
+#### Redux
+
+- redux app ke frontend ka database hota ahai
+- jo hamari state hoti hai ham unhe frontenfd me hi stroe kara late hai
+- or kha pe store kara te hai ek centralized repositry ek centrazile or us datatbase ka name diya hua hai reduc ke name se
