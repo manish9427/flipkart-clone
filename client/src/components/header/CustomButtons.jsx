@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { Box, Button, Typography, styled } from "@mui/material";
 import { ShoppingCart } from "@mui/icons-material";
-import { DataContext } from "../context/DataProvider";
+import { DataContext } from "../../context/DataProvider";
 //components
 import LoginDialog from "../Login/LoginDialog";
 import Profile from "./Profile";

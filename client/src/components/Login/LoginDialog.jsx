@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 
 import { authenticateSignup, authenticateLogin } from "../../service/api";
-import { DataContext } from "../context/DataProvider";
+import { DataContext } from "../../context/DataProvider";
 
 const Component = styled(Box)`
   height: 70vh;
