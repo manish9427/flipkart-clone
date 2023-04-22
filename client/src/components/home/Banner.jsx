@@ -3,10 +3,14 @@ import "react-multi-carousel/lib/styles.css";
 import { styled } from "@mui/material";
 import { bannerData } from "../../constants/data";
 
-const Image = styled("img")({
+const Image = styled("img")(({ theme }) => ({
   width: "100%",
   heigth: 180,
-});
+  [theme.breakpoints.down("md")]: {
+    objectFit: "cover",
+    height: 180,
+  },
+}));
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },

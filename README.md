@@ -88,7 +88,16 @@ flipkart clone
 - profile
 
 # Divider
+
 - replacement of HR tag
+
+# Grid
+
+- responsiveness
+
+# theme
+
+- responsivness
 
 #### Material icons
 
@@ -111,6 +120,6 @@ flipkart clone
 - jo hamari state hoti hai ham unhe frontenfd me hi stroe kara late hai
 - or kha pe store kara te hai ek centralized repositry ek centrazile or us datatbase ka name diya hua hai reduc ke name se
 
+# object destructuring
 
-# object destructuring 
 - Home.jsx
