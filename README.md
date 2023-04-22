@@ -87,6 +87,9 @@ flipkart clone
 
 - profile
 
+# Divider
+- replacement of HR tag
+
 #### Material icons
 
 - SearchIcon
