@@ -14,3 +14,5 @@
 11- redux->store.js
 12- server-routes-route.js
 13- server->controller->product-controller.js->getProductById()
+14- DetailView.js->
+15- ActionItem.js->
