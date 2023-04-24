@@ -40,7 +40,7 @@ const DetailView = () => {
           <RightContainer item lg={8} md={8} sm={8} xs={12}>
             <Typography>{product.title.longTitle}</Typography>
             <Typography
-              style={{ marginTop: 5, color: "#878787", fontsize: 14 }}
+              style={{ marginTop: 5, color: "#878787", fontSize: 14 }}
             >
               8 Rating & 1 Reviews
               <Box component="span">
@@ -52,7 +52,7 @@ const DetailView = () => {
               </Box>
             </Typography>
             <Typography>
-              <Box component="span" style={{ fontsize: 28 }}>
+              <Box component="span" style={{ fontSize: 28 }}>
                 ₹{product.price.cost}
               </Box>
               &nbsp;&nbsp;&nbsp;
