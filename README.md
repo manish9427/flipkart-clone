@@ -99,11 +99,14 @@ flipkart clone
 
 - responsivness
 
+# Table
+
 #### Material icons
 
 - SearchIcon
 - Shopping Cart
 - PowerSettingsNew
+- Localoffer
 
 #### react-multi-carousel(Banner)
 
@@ -123,3 +126,7 @@ flipkart clone
 # object destructuring
 
 - Home.jsx
+
+# Important
+
+- colSpan

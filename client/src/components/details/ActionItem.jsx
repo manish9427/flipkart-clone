@@ -32,7 +32,7 @@ const ActionItem = ({ product }) => {
       >
         <Cart /> Add to Cart
       </StyledButton>
-      <StyledButton variant="contained" style={{ background: "#fb541b" }}>
+      <StyledButton variant="contained" style={{ background: "#fb641b" }}>
         <Flash /> Buy Now
       </StyledButton>
     </LeftContainer>

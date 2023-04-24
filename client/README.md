@@ -16,3 +16,7 @@
 13- server->controller->product-controller.js->getProductById()
 14- DetailView.js->
 15- ActionItem.js->
+
+---
+
+16- ProductDetail
