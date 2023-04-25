@@ -9,11 +9,16 @@ import Profile from "./Profile";
 const Wrapper = styled(Box)(({ theme }) => ({
   display: "flex",
   margin: "0 3% 0 auto",
-  "& > div,&>p,&>button": {
-    marginRight: 40,
+  "& > *": {
+    marginRight: "40px !important",
     fontSize: 16,
     alignItems: "centre",
   },
+  // "& > div,&>p,&>button": {
+  //   marginRight: 40,
+  //   fontSize: 16,
+  //   alignItems: "centre",
+  // },
   [theme.breakpoints.down("md")]: {
     display: "block",
   },
