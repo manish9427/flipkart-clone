@@ -1,22 +1,143 @@
-1 - details - DetailView
-2 - react-router-dom ==> routing
-3- App.js => import {BrowserRouter,Routes,Route}-->path,element
-4- Slide.jsx=> import {Link} And style={{textDecoration:"none"}}
-6- Header.jsx => import {Link}-> <Link to=`product/${product.id}`> and style={{textDecoration:"none"
-                                                                               color:inherit}}
-7- DetailView.jsx => {useEffect}->"react
-{useParams }->"react-router-dom"
-{useDispatch}->"react-redux"
+# flipkart-clone
 
-8- redux->actions->productActions->getProductDetails
-9- redux->constants
-10- redux->reducers->productReducer
-11- redux->store.js
-12- server-routes-route.js
-13- server->controller->product-controller.js->getProductById()
-14- DetailView.js->
-15- ActionItem.js->
+flipkart clone
 
----
+- Source Code
+  https://github.com/kunaltyagi9/MERN-Stack-Projects/tree/master/ECommerce-Website
+- Files
+  https://drive.google.com/drive/folders/1mDT-2OQHusQrIt3VoECEAdoDu6y6W_N1
 
-16- ProductDetail
+#### client
+
+### src
+
+## components
+
+# header
+
+- header.jsx
+- Search.jsx
+- CustomButtons.jsx
+
+# Home
+
+- Home.jsx
+- NavBar.jsx
+- Banner.jsx
+
+# login
+
+- LoginDialog.jsx
+
+## Constants
+
+- data.js
+
+## service
+
+- api.js
+
+## context
+
+- DataProvider.jsx
+
+## App.js
+
+-
+
+#### Material UI
+
+# Header
+
+- AppBar
+- Toolbar
+
+# handle CSS
+
+- styled
+
+# Box
+
+- Div
+
+# Typography
+
+- for paragraph
+
+# want to use span
+
+- Box
+
+# InputBase
+
+- Search
+
+# Button
+
+- variant contained
+
+# Dialog
+
+# TextField
+
+- variant standard
+- label
+
+# menu
+
+- profile
+
+# Divider
+
+- replacement of HR tag
+
+# Grid
+
+- responsiveness
+
+# theme
+
+- responsivness
+
+# Table
+
+# IconButton
+
+# Drawer
+
+#### Material icons
+
+- SearchIcon
+- Shopping Cart
+- PowerSettingsNew
+- Localoffer
+- Menu
+
+#### react-multi-carousel(Banner)
+
+- npm i react-multi-carousel
+
+#### React
+
+- Fragments => in order to render multipe components without using div
+- useState
+
+#### Redux
+
+- redux app ke frontend ka database hota ahai
+- jo hamari state hoti hai ham unhe frontenfd me hi stroe kara late hai
+- or kha pe store kara te hai ek centralized repositry ek centrazile or us datatbase ka name diya hua hai reduc ke name se
+
+# object destructuring
+
+- Home.jsx
+
+# Important
+
+- colSpan
+
+# function
+
+- onClick
+- onClose
+- onChange
