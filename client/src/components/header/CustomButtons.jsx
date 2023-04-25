@@ -6,20 +6,24 @@ import { DataContext } from "../../context/DataProvider";
 import LoginDialog from "../Login/LoginDialog";
 import Profile from "./Profile";
 
-const Wrapper = styled(Box)`
-  display: flex;
-  margin: 0 3% 0 auto;
-  & > button,
-  & > p,
-  & > div {
-    margin-right: 40px;
-    font-size: 16px;
-    align-items: centre;
-  }
-`;
-const Container = styled(Box)`
-  display: flex;
-`;
+const Wrapper = styled(Box)(({ theme }) => ({
+  display: "flex",
+  margin: "0 3% 0 auto",
+  "& > div,&>p,&>button": {
+    marginRight: 40,
+    fontSize: 16,
+    alignItems: "centre",
+  },
+  [theme.breakpoints.down("md")]: {
+    display: "block",
+  },
+}));
+const Container = styled(Box)(({ theme }) => ({
+  display: "flex",
+  [theme.breakpoints.down("md")]: {
+    display: "block",
+  },
+}));
 const LoginButton = styled(Button)`
   color: #2874f0;
   background: #FFFFFF;
