@@ -141,3 +141,15 @@ flipkart clone
 - onClick
 - onClose
 - onChange
+
+# React Router Dom
+
+- Routes
+- Route
+- Link
+- UseNavigate
+
+# React Redux
+
+- useDispatch
+- useSelector - custom Hook
